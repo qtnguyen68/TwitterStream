@@ -8,15 +8,6 @@
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
-import time
 import pycurl
 import urllib
 import json
@@ -26,10 +17,10 @@ API_ENDPOINT_URL = 'https://stream.twitter.com/1.1/statuses/filter.json'
 USER_AGENT = 'TwitterStream 1.0' # This can be anything really
 
 # You need to replace these with your own values
-OAUTH_KEYS = {'consumer_key': <Consumer key>,
-              'consumer_secret': <Consumer secret>,
-              'access_token_key': <Token key>,
-              'access_token_secret': <Token secret>}
+OAUTH_KEYS = {'consumer_key': "3hI3gpceBwoxCHCpSEM4Nw",
+              'consumer_secret': "PEJQzJTVTlRP7pdoCHIotZMXcuyeGaSVDWD3bRRw",
+              'access_token_key': "1403419860-JmDQmeM0kbdHkEqH2F4lmTDQOKOxy63tk2nfpNE",
+              'access_token_secret': "5AWn3Gtc9K2HA7x5GKs9HreqlX14SEAaPO7eA0yI1g"}
 
 # These values are posted when setting up the connection
 POST_PARAMS = {'include_entities': 0,
